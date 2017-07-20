@@ -1,0 +1,34 @@
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI","Microsoft YaHei",SimHei,"\5B8B\4F53",simsun,sans-serif;
+}
+
+.layout-north{
+    background:#333;
+    height:80px;
+    overflow: hidden;
+}
+.layout-north .logo{
+    float:left;
+    width:300px;
+    height:80px;
+}
+.layout-north .info{
+    float:right;
+    width:300px;
+    height:80px;
+    line-height:80px;
+    padding:0 20px 0 0;
+    color:#fff;
+    text-align:right;
+}
+
+.layout-west{
+    width:180px;
+}
+.layout-center{}
+
+.layout-south{
+    height:30px;
+    padding:10px 0;
+    text-align: center;
+}
